@@ -1,0 +1,62 @@
+:root {
+    --primary-color: #00FB11;
+    --secondary-color: #707070;
+}
+
+/* General HTML elements */
+h1 {
+    color: var(--primary-color);
+}
+
+/* header & navigation bar */
+header {
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 9999;
+}
+
+header h1 {
+    padding-left: 15px;
+}
+
+header nav ul {
+    align-items: stretch;
+    color: var(--primary-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+header nav ul li a {
+    background: var(--secondary-color);
+    border: 1px solid black;
+    color: var(--primary-color);
+    font-size: 25px;
+    font-weight: ligher;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+/* End of header & navigation bar */
+
+/* hero/jumbo */
+
+/* about me */
+.home h2 {
+    color: var(--primary-color);
+}
+
+/* projects: container */
+
+/* projects: main */
+
+/* projects: secondary */
+
+/* contact information */
+
