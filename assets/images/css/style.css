@@ -53,6 +53,12 @@ header nav ul li a {
     color: var(--primary-color);
 }
 
+.home img {
+    height: auto;
+    width: 15%;
+    border-radius: 50%;
+}
+
 /* projects: container */
 
 /* projects: main */
