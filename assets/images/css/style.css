@@ -48,7 +48,7 @@ header nav ul li a {
 
 /* hero/jumbo */
 
-/* about me */
+/* home */
 .home {
     display: flex;
     justify-content: space-between;
@@ -60,11 +60,6 @@ header nav ul li a {
     border-radius: 50%;
     margin-top: 10px;
     margin-left: 10px;
-}
-
-#aboutme {
-    margin-left: 75px;
-    min-width: 80%;
 }
 
 .home .socials h2 {
@@ -104,9 +99,55 @@ header nav ul li a {
     
 }
 
-/* projects: container */
+/* about me */
+.aboutme {
+    display: block;
+    margin: 0px 50px;
+}
 
-/* projects: main */
+/* projects: container */
+.projects {
+    display: flex;
+    flex-direction: column;
+    margin-left: 310px;
+    margin-right: 50px;
+}
+
+/* main project container */
+.project-main {
+    display: flex;
+    justify-content: center;
+
+}
+
+/* second and third projects */
+
+
+/* project banners */
+.banner-container {
+    position: relative;
+    text-align: left;
+}
+
+.banner-container img {
+    height: 250px;
+    object-fit: cover;
+    object-position: 90% 100%;
+    width: 500px;
+}
+
+.banner-text {
+    background-color: black;
+    bottom: 9px;
+    color: var(--primary-color);
+    left: 16px;
+    padding: 5px;
+    position: absolute;
+}
+
+/* .project-main .description {
+
+} */
 
 /* projects: secondary */
 
