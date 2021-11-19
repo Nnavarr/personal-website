@@ -55,15 +55,53 @@ header nav ul li a {
 }
 
 .home img {
-    height: auto;
-    width: 15%;
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
     margin-top: 10px;
+    margin-left: 10px;
 }
 
-.socials h2 {
+#aboutme {
+    margin-left: 75px;
+    min-width: 80%;
+}
+
+.home .socials h2 {
     color: var(--primary-color);
-   
+    text-align: center;
+    margin: 5px 5px;
+}
+
+/* social image container */
+.home .socials .social-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.home .socials .social-images a {
+    height: 50px;
+    width: 50px;
+}
+
+/* socials image sizing */
+#GitHub {
+    height: 50px;
+    margin: 0;
+    text-align: center;
+    width: 50px;
+}
+
+#LinkedIn {
+    height: 40px;
+    margin-top:5px;
+    margin-left:5px;
+    text-align: center;
+    width: 40px;
+    
 }
 
 /* projects: container */
