@@ -1,11 +1,12 @@
 :root {
-    --primary-color: #00FB11;
-    --secondary-color: #707070;
+    --green-color: #00FB11;
+    --secondary-color: #D4DCD6;
+    --header-color: black;
 }
 
 /* General HTML elements */
 h1 {
-    color: var(--primary-color);
+    color: var(--green-color);
 }
 
 /* header & navigation bar */
@@ -37,7 +38,7 @@ header nav ul {
 header nav ul li a {
     background: var(--secondary-color);
     border: 1px solid black;
-    color: var(--primary-color);
+    color: var(--header-color);
     font-size: 25px;
     font-weight: ligher;
     padding: 10px 20px;
@@ -45,14 +46,29 @@ header nav ul li a {
     text-decoration: none;
 }
 
-/* End of header & navigation bar */
+/* main contect flexbox container */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
 
-/* hero/jumbo */
+/* main content */
+.main-content {
+    flex: 1;
+    margin-top: 0px;
+    margin-left: 8px;
+    padding: 10px;
+}
 
 /* home */
 .home {
     display: flex;
-    justify-content: space-between;
+    background-color: var(--secondary-color);
+    border-bottom: .5px solid black;
+    border-left: .5px solid black;
+    border-right: .5px solid black;
 }
 
 .home img {
@@ -64,7 +80,6 @@ header nav ul li a {
 }
 
 .home .socials h2 {
-    color: var(--primary-color);
     text-align: center;
     margin: 5px 5px;
 }
@@ -103,15 +118,13 @@ header nav ul li a {
 /* about me */
 .aboutme {
     display: block;
-    margin: 0px 50px;
+    position: relative;
 }
 
 /* projects: container */
 .projects {
     display: flex;
     flex-direction: column;
-    margin-left: 310px;
-    margin-right: 50px;
 }
 
 /* main project container */
@@ -153,7 +166,7 @@ header nav ul li a {
 .banner-text {
     background-color: black;
     bottom: 9px;
-    color: var(--primary-color);
+    color: var(--green-color);
     left: 16px;
     padding: 5px;
     position: absolute;
@@ -168,8 +181,6 @@ header nav ul li a {
 .contact {
     display: flex;
     flex-direction: column;
-    margin-left: 310px;
-    margin-right: 50px;
 }
 
 .contact-icons {
@@ -200,4 +211,3 @@ header nav ul li a {
     width: 100%;
  }
  
-
