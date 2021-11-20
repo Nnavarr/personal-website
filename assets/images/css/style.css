@@ -115,27 +115,40 @@ header nav ul li a {
 
 /* main project container */
 .project-main {
-    display: flex;
     justify-content: center;
-
 }
 
-/* second and third projects */
+/* second row of projects */
+.project-second {
+    display: flex;
+    justify-content: space-evenly;
+}
 
-
-/* project banners */
-.banner-container {
+/* project banners - main */
+.banner-main {
     position: relative;
     text-align: left;
 }
 
-.banner-container img {
-    height: 250px;
-    object-fit: cover;
-    object-position: 90% 100%;
-    width: 500px;
+.banner-main img {
+    height: auto;
+    width: 100%;
 }
 
+/* project banners - secondary */
+.banner-secondary {
+    align-content: space-evenly;
+    text-align: left;
+    position: relative;
+}
+
+.banner-secondary img {
+    flex: 1;
+    width: 100%;
+
+}
+
+/* project banners - primary */
 .banner-text {
     background-color: black;
     bottom: 9px;
@@ -145,11 +158,10 @@ header nav ul li a {
     position: absolute;
 }
 
-/* .project-main .description {
-
-} */
-
-/* projects: secondary */
+/* small gap between row wise flex elements */
+.col-gap {
+    margin: 2px;
+}
 
 /* contact information */
 
